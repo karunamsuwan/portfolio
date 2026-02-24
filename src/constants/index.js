@@ -1,0 +1,7 @@
+export * from './skills'
+export * from './experience'
+export * from './contact'
+export * from './certificate'
+export * from './content'
+export * from './hobbies'
+export * from './education'
