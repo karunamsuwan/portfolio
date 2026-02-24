@@ -1,4 +1,6 @@
+import './App.css'
 import { useState, useEffect } from 'react'
+import profileImg from './assets/profile.jpg'
 
 const skills = [
   'ออกแบบ UXUI',
@@ -211,14 +213,14 @@ export default function App() {
         <div className={`hero-bg fade-in ${visible ? 'show' : ''}`}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 20 }}>
             <div style={{ flex: 1 }}>
-              <div className="hero-name">การณย์ ไกรกิจราษภูร์</div>
+              <div className="hero-name">การัณย์ ไกรกิจราษฎร์</div>
               <div className="hero-role">Software Engineer · Mobile Dev</div>
               <div className="hero-summary">
                 รับผิดชอบในการติดต่อประสานงานโครงการและทำหน้าที่เป็นหัวหน้าทีมพัฒนา Mobile ดูแลและบริหารจัดการสื่อสารกับลูกค้า เพื่อตอบโจทย์ความต้องการทางธุรกิจ ออกแบบและวางโครงสร้างระบบซอฟต์แวร์ มีประสบการณ์ความเชี่ยวชาญในด้านการพัฒนาซอฟต์แวร์ 8 ปี
               </div>
             </div>
             <img
-              src="https://i.imgur.com/placeholder.png"
+              src={profileImg}
               onError={e => { e.target.style.display = 'none' }}
               className="photo-ring"
               alt="profile"
@@ -261,7 +263,7 @@ export default function App() {
           <div>
             <div className="section-card" style={{ marginBottom: 20 }}>
               <div className="section-title">Certificate</div>
-              <a href="https://drive.google.com" target="_blank" rel="noreferrer">🔗 GoogleDrive</a>
+              <a href="https://drive.google.com/drive/u/0/folders/1rlAq-0hoRRzCCobfE1I2Oqr2Q2nx448x" target="_blank" rel="noreferrer">🔗 GoogleDrive</a>
               <ul className="styled" style={{ marginTop: 10 }}>
                 {certs.map(c => <li key={c}>{c}</li>)}
               </ul>
