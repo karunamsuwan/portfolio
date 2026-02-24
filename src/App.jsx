@@ -40,7 +40,11 @@ export default function App() {
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&family=Playfair+Display:wght@700;900&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #f5f0eb; }
+        html, body, #root {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
 
         .fade-in {
           opacity: 0;
@@ -197,7 +201,11 @@ export default function App() {
         }
       `}</style>
 
-      <div style={{ maxWidth: 820, margin: '0 auto', padding: '32px 16px' }}>
+      <div style={{
+        maxWidth: 820,
+        margin: '0 auto',
+        padding: '32px 16px'
+      }}>
 
         {/* Hero */}
         <div className={`hero-bg fade-in ${visible ? 'show' : ''}`}>
