@@ -137,17 +137,133 @@ export default function App() {
 
             <div style={{ marginBottom: 16 }}>
               <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบเช็คอินเข้าออกงาน</div>
-              <div className="exp-desc">ระบบที่ช่วยให้พนักงานสามารถบันทึกเวลาเข้างานในบริเวณสถานที่ทำงาน พร้อมทั้งมีการตรวจสอบ GPS เมื่อมีการบันทึกเข้า-ออกงาน <a href="#" style={{ fontSize: '0.88rem' }}>PlayStore</a></div>
+              <div className="exp-desc">ระบบที่ช่วยให้พนักงานสามารถบันทึกเวลาเข้างานในบริเวณสถานที่ทำงาน พร้อมทั้งมีการตรวจสอบ GPS เมื่อมีการบันทึกเข้า-ออกงาน</div>
+              <a href="https://play.google.com/store/apps/details?id=nimt.ta&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
               <div style={{ marginTop: 8 }}>
-                {['Figma UXUI', 'React Expo', 'JavaScript', 'VS Code', 'Eclipse', 'Java', 'Restful API'].map(t => <span key={t} className="tag">{t}</span>)}
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
               </div>
             </div>
 
             <div>
               <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบตรวจสอบผลการเรียน</div>
-              <div className="exp-desc">ระบบที่ช่วยให้นักศึกษาสามารถตรวจสอบประวัตินักศึกษา ตารางเรียน ผลการเรียน การชำระเงิน และผลการลงทะเบียนเรียนของนักศึกษา <a href="#" style={{ fontSize: '0.88rem' }}>PlayStore</a></div>
+              <div className="exp-desc">ระบบที่ช่วยให้นักศึกษาสามารถตรวจสอบประวัตินักศึกษา ตารางเรียน ผลการเรียน การชำระเงิน และผลการลงทะเบียนเรียนของนักศึกษา</div>
+              <a href="https://play.google.com/store/apps/details?id=com.karunamsuwan.sduapp&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <a href="https://apps.apple.com/th/app/sdu-edu-4-0/id6443670209" style={{ fontSize: '0.88rem' }}>AppStore</a>
               <div style={{ marginTop: 8 }}>
                 {['Java', 'Android Studio'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบทะเบียนการศึกษา</div>
+              <div className="exp-desc">ระบบช่วยให้ผู้ใช้สามารถตรวจสอบประวัติครู-นักเรียน, ตารางสอน-ตารางเรียน, ผลการเรียน และ การเช็คชื่อนักเรียน</div>
+              <a href="https://play.google.com/store/apps/details?id=com.gtt.opecregis&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <a href="https://apps.apple.com/th/app/regis-opec/id1595552400" style={{ fontSize: '0.88rem' }}>AppStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'JavaScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบจัดการห้องพัก</div>
+              <div className="exp-desc">ระบบที่ช่วยให้นักศึกษาสามารถร้องขอจอง-ย้ายห้องพัก, แจ้งซ่อมอุปกรณ์ชำรุดผ่านการอัปโหลดรูปภาพ, ตรวจสอบค่าน้ำ-ค่าไฟ ระบบที่ช่วยให้ผู้ดูแลหอพักได้บันทึกแจ้งซ่อมอุปกรณ์ชำรุด และค่าน้ำ-ค่าไฟ</div>
+              <a href="https://play.google.com/store/apps/details?id=gtt.sdu.dorm&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <a href="https://apps.apple.com/th/app/dorm-sdu/id6444823369" style={{ fontSize: '0.88rem' }}>AppStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'JavaScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบจัดการการเข้างานในและนอกสถานที่</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้พนักงานสามารถบันทึกเวลาเข้างาน ในสถานที่และนอกสถานที่ทำงานได้ โดยการตรวจสอบ GPS เมื่อมีการบันทึกเข้า-ออกงาน</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'Google Draw.io', 'React Expo', 'TypeScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบฟาร์มไข่ไก่</div>
+              <div className="exp-desc">ระบบที่ช่วยให้ผู้ใช้สามารถบันทึกและตรวจสอบข้อมูล โรงไก่ ราคาไข่ การซื้อ-ขาย จำนวนไก่ จำนวนไข่ที่เก็บจากโรงไก่ ตั้งค่าการขายไข่ ประวัติฟาร์ม ประวัติลูกค้า</div>
+              <a href="https://play.google.com/store/apps/details?id=com.gttcenter.efms&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'Google Draw.io', 'React Expo', 'JavaScript', 'VS Code', 'GoLang', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบการบริการแอร์</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้ผู้ใช้งานสามารถแจ้งรับขอบริการ และติดตามสถานะการให้บริการล้างแอร์, ซ่อมแอร์, ติดตั้งแอร์</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบจัดการข้อมูลเงินเดือนและการเบิกจ่ายโรงพยาบาล</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้ผู้ใช้สามารถบันทึก ตรวจสอบ และอนุมัติ ข้อมูลเงินเดือน, การเบิกค่าเวร, ค่า OT, ค่า Project Base, ค่า Activity Base</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'Eclipse', 'Java', 'Restful API', 'MySQL'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบศูนย์แจ้งเตือนโครงการ</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้ผู้ใช้ได้รับการแจ้งเตือนโครงการของบริษัท ทำการแจ้งเตือนในรูปแบบของ Mobile Application</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'NodeJS', 'Express', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบบริหารจัดการทรัพยากรบุคคล</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้พนักงานและฝ่ายบุคคลสามารถ จัดการข้อมูลและติดตามพนักงาน การเข้า-ออกงาน, การทำงาน, การลา, การเบิกจ่าย</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'Java', 'Spring Boot', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบบริหารจัดการคุณภาพและมาตรฐานการศึกษา</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้พนักงานและฝ่ายบุคคลสามารถ จัดการข้อมูลและติดตามพนักงาน การเข้า-ออกงาน, การทำงาน, การลา, การเบิกจ่าย</div>
+              <a href="https://line.me/R/ti/p/@243ubkpx" style={{ fontSize: '0.88rem' }}>LineChatBot</a>
+              <div style={{ marginTop: 8 }}>
+                {['Canva', 'Line Bot Design', 'VS Code', 'Python', 'Webhook API', 'Google Colab'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบจำหน่ายปุ๋ย</div>
+              <div className="exp-desc">ระบบภายในที่ช่วยให้พนักงานและผู้ใช้สามารถ จำหน่ายปุ๋ย, ติดต่อพนักงาน, แสดงความคิดเห็นหลังใช้ปุ๋ย</div>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'Google Draw.io', 'React Expo', 'TypeScript', 'VS Code', 'Java', 'Spring Boot', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบการยืนยันตัวตนเข้าชั้นเรียน</div>
+              <div className="exp-desc">ระบบจะช่วนในเรื่องการยืนยันตัวตนในการเข้าเรียน โดนใช้กล้องจากมือถือส่งภาพแบบ RealTime ให้ AI ตรวจสอบความถูกต้องของใบหน้าผู้เรียน</div>
+              <a href="https://play.google.com/store/apps/details?id=com.gttcenter.nfer&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'Google Draw.io', 'React Expo', 'TypeScript', 'VS Code', 'NodeJS', 'Python', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบการแจ้งเตือนโครงการ</div>
+              <div className="exp-desc">ระบบจะเชื่อมกับเว็บและส่งข้อความแจ้งเตือนเข้ามือถือ เมื่อมีข้อผิดพลาด หรือมีปัญหาที่ต้องแก้ไขด่วน</div>
+              <a href="https://play.google.com/store/apps/details?id=com.gttcenter.gtnotifyapp&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
+              <a href="https://apps.apple.com/th/app/notifyapp/id6744355793" style={{ fontSize: '0.88rem' }}>AppStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'NodeJS', 'Express', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
+              </div>
+            </div>
+            <div>
+              <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบตรวจสอบบุคลากรทางการศึกษา</div>
+              <div className="exp-desc">ระบบจะแสดงข้อมูลบุคลากร เช่น โรงเรียนที่เคยสอน บุคลากรทางการศึกษา สามารถใช้ ThaiD เข้าสู่ระบบ Mobile พร้อมตรวจสอบข้อมูลตนเองได้</div>
+              <a href="https://play.google.com/store/apps/details?id=com.gttcenter.vecpcard&pcampaignid=web_share" style={{ fontSize: '0.88rem' }}>PlayStore</a>
+              <div style={{ marginTop: 8 }}>
+                {['Figma UXUI', 'React Expo', 'TypeScript', 'VS Code', 'Java', 'Spring Boot', 'Restful API', 'SQL Server'].map(t => <span key={t} className="tag">{t}</span>)}
               </div>
             </div>
           </div>
@@ -177,6 +293,7 @@ export default function App() {
             <div style={{ marginBottom: 16 }}>
               <div style={{ fontWeight: 700, fontSize: '0.92rem', marginBottom: 6, color: '#333' }}>ระบบเช็คอินเข้าออกงาน</div>
               <div className="exp-desc">ดูแลและพัฒนาระบบจัดการคิวผู้ใช้งานสามารถจองคิวในระยะของร้านที่กำหนด ไม่จำเป็นต้องไปรอเอาบัตรคิวที่ร้าน แล้วไม่ต้องต่อแถวเพื่อรอให้ถึงคิว ระบบจะแจ้งเตือนเมื่อใกล้ถึงคิวของผู้ใช้งาน <a href="#" style={{ fontSize: '0.88rem' }}>PlayStore</a></div>
+              <a href="https://play.google.com/store/apps/details?id=com.jorlek.queqcustomer&pcampaignid=web_share" style={{ fontSize: '0.88rem', marginRight: 8 }}>PlayStore</a>
               <div style={{ marginTop: 8 }}>
                 {['Android Studio', 'Java', 'Kotlin', 'Android Box', 'Printer Bixolon', 'Scanner QRCode&Barcode'].map(t => <span key={t} className="tag">{t}</span>)}
               </div>
